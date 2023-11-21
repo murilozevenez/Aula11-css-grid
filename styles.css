@@ -1,0 +1,36 @@
+body {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  h1 {
+    font-family: 'Bebas Neue', Arial, sans-serif;
+    color: #2f2f2f;
+  }
+  
+  .grid-container-inline {
+    display: inline-grid;
+    /* grid-template-columns: 100px 100px 100px; */
+    grid-template-columns: repeat(3, 100px);
+    row-gap: 10px;
+  }
+  
+  
+  .grid-container {
+    margin: 10px 0;
+    display: grid;
+    /* Frações (fr) são usadas para definir o layout das colunas */
+    grid-template-columns: 2fr 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-auto-rows: 200px;
+  }
+  
+  .sem-serif {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .grid-item {
+    background-color: antiquewhite;
+  }
